@@ -14,6 +14,17 @@ const router = createRouter({
       name: 'snake',
       component: () => import('../views/snake/index.vue')
     },
+    {
+      path: '/zadiacSign',
+      name: 'zadiacSign',
+      component: () => import('../views/ZadiacSignView.vue')
+    },
+    {
+      path: '/swiper',
+      name: 'swiper',
+      component: () => import('../views/SwiperView.vue')
+    },
+    
   ]
 })
 

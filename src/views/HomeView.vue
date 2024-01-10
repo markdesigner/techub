@@ -9,15 +9,14 @@ const { increment } = counterStore
 
 <template>
   <div class="home">
-    <h1>home</h1>
-    <p>{{ count }}</p>
-    <p>{{ doubleCount }}</p>
-    <button @click="increment">add</button>
+    home
   </div>
 </template>
 
 <style lang="scss" scoped>
-.sss {
-  color: red;
+.home {
+  .image {
+    width: 100%;
+  }
 }
 </style>

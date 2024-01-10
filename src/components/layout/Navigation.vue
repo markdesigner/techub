@@ -47,7 +47,6 @@ import AppPadIcon from '@/components/icon/AppPadIcon.vue'
         font-size: 20px;
         color: $text01;
         margin-left: 20px;
-        font-family: monospace;
       }
     }
     .page-link-container {
