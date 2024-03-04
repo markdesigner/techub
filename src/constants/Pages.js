@@ -14,11 +14,6 @@ const PAGES = [
     name: 'zadiacSign',
     icon: 'default'
   },
-  {
-    title: 'swiper',
-    name: 'swiper',
-    icon: 'default'
-  }
 ]
 
 export { PAGES }

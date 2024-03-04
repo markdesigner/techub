@@ -19,11 +19,6 @@ const router = createRouter({
       name: 'zadiacSign',
       component: () => import('../views/ZadiacSignView.vue')
     },
-    {
-      path: '/swiper',
-      name: 'swiper',
-      component: () => import('../views/SwiperView.vue')
-    },
     
   ]
 })
